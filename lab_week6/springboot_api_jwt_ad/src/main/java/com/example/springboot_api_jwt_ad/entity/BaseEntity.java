@@ -26,6 +26,6 @@ public abstract class BaseEntity implements Serializable {
     private Date createAt;
     @LastModifiedDate
     private Date updateAt;
-    private Long createBy;
-    private Long updateBY;
+    private Long createdBy;
+    private Long updatedBY;
 }
